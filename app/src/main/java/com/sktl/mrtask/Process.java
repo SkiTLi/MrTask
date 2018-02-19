@@ -9,15 +9,19 @@ public class Process {
     private String id;
     private String name;
 
-
-
-    public Process(String id,String name) {
-        this.id = id;
+    public Process(String name) {
 
         this.name = name;
 
     }
 
+
+    public Process(String id, String name) {
+        this.id = id;
+
+        this.name = name;
+
+    }
 
 
     public String getId() {

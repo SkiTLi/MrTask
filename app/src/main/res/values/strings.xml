@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">MrTask</string>
     <string name="title_home">Refresh</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Kill</string>
+    <!--<string name="title_dashboard">Dashboard</string>-->
+    <!--<string name="title_notifications">Kill</string>-->
 </resources>

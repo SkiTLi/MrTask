@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="tap to kill and do Refresh"
+            android:text="tap to kill"
             android:textColor="#a70800"
             android:textSize="10dp" />
     </RelativeLayout>
