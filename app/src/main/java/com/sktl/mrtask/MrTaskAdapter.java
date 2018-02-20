@@ -27,7 +27,6 @@ public class MrTaskAdapter extends RecyclerView.Adapter<MrTaskAdapter.ProcessVie
     }
 
 
-
     public static class ProcessViewHolder extends RecyclerView.ViewHolder {
 
 
@@ -60,7 +59,6 @@ public class MrTaskAdapter extends RecyclerView.Adapter<MrTaskAdapter.ProcessVie
     }
 
 
-
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
@@ -76,7 +74,9 @@ public class MrTaskAdapter extends RecyclerView.Adapter<MrTaskAdapter.ProcessVie
 
     @Override
     public void onBindViewHolder(ProcessViewHolder processViewHolder, int i) {
-        processViewHolder.processName.setText(processes.get(i).getName());
+        processViewHolder.processName.setText(
+//                "ID=" + processes.get(i).getId() + ", \n " +
+                        processes.get(i).getName());
 
         processViewHolder.processButton.setOnClickListener(new View.OnClickListener() {
             @Override

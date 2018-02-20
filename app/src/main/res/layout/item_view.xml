@@ -25,7 +25,7 @@
             android:layout_alignParentTop="true"
             android:layout_toRightOf="@+id/process_photo"
             android:text="process_name"
-            android:textSize="20dp" />
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/process_button"
